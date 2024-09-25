@@ -1,0 +1,89 @@
+$primaryColor: #070F2B;
+$secondaryColor: #1B1A55;
+$thirdColor: #535C91;
+$fourthColor: #9290C3;
+$extraColor: #F0F5FF;
+
+
+
+
+.main-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    background-color: $secondaryColor;
+    padding: 1.5rem;
+}
+
+.main-navbar {
+    background-color: $primaryColor;
+}
+
+.logo-icon {
+    color: $primaryColor;
+    font-size: 25px;
+}
+
+.navbar-brand {
+    color: $primaryColor !important;
+    font-size: 1.5rem !important;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.navbar-search {
+    flex-grow: 1;
+}
+
+.navbar-search {
+
+    display: flex;
+    padding: 0.5rem 0.5rem;
+    border-radius: 8px;
+    gap: 1rem;
+    background-color:  $thirdColor;
+    color:white;
+
+    button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    .input-search-navbar {
+        border: none;
+        outline: none;
+        background-color:  $thirdColor;
+        color:$extraColor;
+    }
+
+}
+
+.loginPage-main {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+#login-form {
+
+    .password-container{
+        border-bottom: 1px solid black; 
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .login-password-input , .login-password-input:focus {
+        border: 0 !important;
+        outline: 0 !important;
+        background-color: transparent;
+    }
+
+}
+
+
+
+
+
